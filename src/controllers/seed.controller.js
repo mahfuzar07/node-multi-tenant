@@ -1,4 +1,4 @@
-import User from "../models/User.js";
+import User from "../models/user.model.js";
 import { data } from "../utils/data.js";
 
 export const seedUser = async (req, res, next) => {
